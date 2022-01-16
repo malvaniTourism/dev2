@@ -52,7 +52,7 @@ function Register() {
           className="page-header-image"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/login.jpg").default + ")",
+              "url(" + require("../assets/img/login.jpg").default + ")",
           }}
         ></div>
         <div className="content" style={{marginTop: '3%'}}>

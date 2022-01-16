@@ -8,14 +8,14 @@ import "./assets/demo/demo.css?v=1.5.0";
 import "./assets/demo/nucleo-icons-page-styles.css?v=1.5.0";
 import "./assets/css/styles.css";
 
-import Index from "views/index";
-import Login from "views/Login";
-import Register from "views/Register";
-import Profile from "views/Profile";
-import Contact from "views/Contact";
-import Partners from "views/Parteners";
-import About from "views/About";
-import ScrollToTop from "components/Scroll/ScrollToTop";
+import Index from "./views/index";
+import Login from "./views/Login";
+import Register from "./views/Register";
+import Profile from "./views/Profile";
+import Contact from "./views/Contact";
+import Partners from "./views/Parteners";
+import About from "./views/About";
+import ScrollToTop from "./components/Scroll/ScrollToTop";
 
 ReactDOM.render(
   <BrowserRouter>

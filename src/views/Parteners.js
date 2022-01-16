@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "reactstrap";
 
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
-import MainCarousel from "components/Carousels/MainCarousel.js";
+import IndexNavbar from "../components/Navbars/IndexNavbar.js";
+import DefaultFooter from "../components/Footers/DefaultFooter.js";
+import MainCarousel from "../components/Carousels/MainCarousel.js";
 
 function Partners() {
     React.useEffect(() => {

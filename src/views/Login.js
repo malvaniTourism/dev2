@@ -7,7 +7,6 @@ import {
   CardFooter,
   Form,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
@@ -43,7 +42,7 @@ function Login() {
           className="page-header-image"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/login.jpg").default + ")",
+              "url(" + require("../assets/img/login.jpg").default + ")",
           }}
         ></div>
         <div className="content">
@@ -55,7 +54,7 @@ function Login() {
                     <div className="logo-container">
                       <img
                         alt="..."
-                        src={require("assets/img/now-logo.png").default}
+                        src={require("../assets/img/now-logo.png").default}
                       ></img>
                     </div>
                   </CardHeader>
@@ -66,11 +65,9 @@ function Login() {
                         (firstFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
                         <InputGroupText>
                           <i className="now-ui-icons ui-1_email-85"></i>
                         </InputGroupText>
-                      </InputGroupAddon>
                       <Input
                         placeholder="Email..."
                         type="text"
@@ -85,11 +82,9 @@ function Login() {
                         (lastFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
                         <InputGroupText>
                           <i className="now-ui-icons ui-1_lock-circle-open"></i>
                         </InputGroupText>
-                      </InputGroupAddon>
                       <Input
                         placeholder="Password..."
                         type="password"

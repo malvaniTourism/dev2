@@ -1,17 +1,17 @@
 import React from "react";
 
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import MainCarousel from "components/Carousels/MainCarousel.js";
+import IndexNavbar from "../components/Navbars/IndexNavbar.js";
+import MainCarousel from "../components/Carousels/MainCarousel.js";
 
-import OffersCard from "components/Cards/OffersCard.js";
-import HolidayCard from "components/Cards/HolidayCard.js";
-import ExploreCard from "components/Cards/ExploreCard";
-import ExploreMoreCard from "components/Cards/ExploreMoreCard";
-import ExploreDetailCard from "components/Cards/ExploreDetailCard";
-import DefaultFooter from "components/Footers/DefaultFooter";
-import DiscountCard from "components/Cards/DiscountCard";
-import UpcomingToursCard from "components/Cards/UpcomingToursCard";
-import AboutUsCard from "components/Cards/AboutUsCard";
+import OffersCard from "../components/Cards/OffersCard.js";
+import HolidayCard from "../components/Cards/HolidayCard.js";
+import ExploreCard from "../components/Cards/ExploreCard";
+import ExploreMoreCard from "../components/Cards/ExploreMoreCard";
+import ExploreDetailCard from "../components/Cards/ExploreDetailCard";
+import DefaultFooter from "../components/Footers/DefaultFooter";
+import DiscountCard from "../components/Cards/DiscountCard";
+import UpcomingToursCard from "../components/Cards/UpcomingToursCard";
+import AboutUsCard from "../components/Cards/AboutUsCard";
 
 function Index() {
     React.useEffect(() => {

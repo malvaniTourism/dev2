@@ -6,7 +6,6 @@ import {
   CardFooter,
   Form,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
@@ -47,7 +46,7 @@ function Register() {
           className="page-header-image"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/login.jpg").default + ")",
+              "url(" + require("../assets/img/login.jpg").default + ")",
           }}
         ></div>
         <div className="content">
@@ -70,11 +69,9 @@ function Register() {
                         (firstFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
                         <InputGroupText>
                           <i className="now-ui-icons users_circle-08"></i>
                         </InputGroupText>
-                      </InputGroupAddon>
                       <Input
                         placeholder="Name..."
                         type="text"
@@ -90,11 +87,9 @@ function Register() {
                           (firstFocus ? " input-group-focus" : "")
                         }
                       >
-                        <InputGroupAddon addonType="prepend">
                           <InputGroupText>
                             <i className="now-ui-icons users_circle-08"></i>
                           </InputGroupText>
-                        </InputGroupAddon>
                         <Input
                           placeholder="Email..."
                           type="email"
@@ -110,11 +105,9 @@ function Register() {
                           (firstFocus ? " input-group-focus" : "")
                         }
                       >
-                        <InputGroupAddon addonType="prepend">
                           <InputGroupText>
                             <i className="now-ui-icons users_circle-08"></i>
                           </InputGroupText>
-                        </InputGroupAddon>
                         <Input
                           placeholder="Mobile..."
                           type="tel"
@@ -130,11 +123,9 @@ function Register() {
                         (firstFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
                         <InputGroupText>
                           <i className="now-ui-icons ui-1_lock-circle-open"></i>
                         </InputGroupText>
-                      </InputGroupAddon>
                       <Input
                         placeholder="Password..."
                         type="password"
@@ -149,11 +140,9 @@ function Register() {
                         (firstFocus ? " input-group-focus" : "")
                       }
                     >
-                      <InputGroupAddon addonType="prepend">
                         <InputGroupText>
                           <i className="now-ui-icons ui-1_lock-circle-open"></i>
                         </InputGroupText>
-                      </InputGroupAddon>
                       <Input
                         placeholder="Confirm Password..."
                         type="password"

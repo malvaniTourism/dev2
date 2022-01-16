@@ -12,9 +12,9 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
+import IndexNavbar from "../components/Navbars/IndexNavbar.js";
+import ProfilePageHeader from "../components/Headers/ProfilePageHeader.js";
+import DefaultFooter from "../components/Footers/DefaultFooter.js";
 
 function Profile() {
   const [pills, setPills] = React.useState("2");
@@ -126,24 +126,24 @@ function Profile() {
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg1.jpg").default}
+                          src={require("../assets/img/bg1.jpg").default}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg3.jpg").default}
+                          src={require("../assets/img/bg3.jpg").default}
                         ></img>
                       </Col>
                       <Col md="6">
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg8.jpg").default}
+                          src={require("../assets/img/bg8.jpg").default}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg7.jpg").default}
+                          src={require("../assets/img/bg7.jpg").default}
                         ></img>
                       </Col>
                     </Row>
@@ -156,24 +156,24 @@ function Profile() {
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg6.jpg").default}
+                          src={require("../assets/img/bg6.jpg").default}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg11.jpg").default}
+                          src={require("../assets/img/bg11.jpg").default}
                         ></img>
                       </Col>
                       <Col md="6">
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg7.jpg").default}
+                          src={require("../assets/img/bg7.jpg").default}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg8.jpg").default}
+                          src={require("../assets/img/bg8.jpg").default}
                         ></img>
                       </Col>
                     </Row>
@@ -186,24 +186,24 @@ function Profile() {
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg3.jpg").default}
+                          src={require("../assets/img/bg3.jpg").default}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg8.jpg").default}
+                          src={require("../assets/img/bg8.jpg").default}
                         ></img>
                       </Col>
                       <Col md="6">
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg7.jpg").default}
+                          src={require("../assets/img/bg7.jpg").default}
                         ></img>
                         <img
                           alt="..."
                           className="img-raised"
-                          src={require("assets/img/bg6.jpg").default}
+                          src={require("../assets/img/bg6.jpg").default}
                         ></img>
                       </Col>
                     </Row>

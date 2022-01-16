@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "reactstrap";
 
-import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import DefaultFooter from "components/Footers/DefaultFooter.js";
-import AboutUsCard from "components/Cards/AboutUsCard";
+import IndexNavbar from "../components/Navbars/IndexNavbar.js";
+import DefaultFooter from "../components/Footers/DefaultFooter.js";
+import AboutUsCard from "../components/Cards/AboutUsCard";
 
 const data = [
   {
@@ -56,7 +56,7 @@ function About() {
             className="page-header-image"
             style={{
               backgroundImage:
-                "url(" + require("assets/img/bg5.jpg").default + ")",
+                "url(" + require("../assets/img/bg5.jpg").default + ")",
             }}
           ></div>
         </div>

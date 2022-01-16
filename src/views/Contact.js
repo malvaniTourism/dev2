@@ -5,14 +5,13 @@ import {
     Row,
     Col,
     InputGroup,
-    InputGroupAddon,
     InputGroupText,
     Input,
 } from "reactstrap";
 
-import IndexNavbar from "components/Navbars/IndexNavbar";
-import DefaultFooter from "components/Footers/DefaultFooter";
-import MainCarousel from "components/Carousels/MainCarousel";
+import IndexNavbar from "../components/Navbars/IndexNavbar";
+import DefaultFooter from "../components/Footers/DefaultFooter";
+import MainCarousel from "../components/Carousels/MainCarousel";
 
 function Contact() {
     const [firstFocus, setFirstFocus] = useState(false);
@@ -48,11 +47,9 @@ function Contact() {
                                         "input-lg" + (firstFocus ? " input-group-focus" : "")
                                     }
                                 >
-                                    <InputGroupAddon addonType="prepend">
                                         <InputGroupText>
                                             <i className="now-ui-icons users_circle-08"></i>
                                         </InputGroupText>
-                                    </InputGroupAddon>
                                     <Input
                                         placeholder="First Name..."
                                         type="text"
@@ -66,11 +63,9 @@ function Contact() {
                                         "input-lg" + (lastFocus ? " input-group-focus" : "")
                                     }
                                 >
-                                    <InputGroupAddon addonType="prepend">
                                         <InputGroupText>
                                             <i className="now-ui-icons ui-1_email-85"></i>
                                         </InputGroupText>
-                                    </InputGroupAddon>
                                     <Input
                                         placeholder="Email..."
                                         type="text"

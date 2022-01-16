@@ -25,7 +25,7 @@ function IndexHeader() {
           className="page-header-image"
           style={{
             backgroundImage:
-              "url(" + require("assets/img/header.jpg").default + ")",
+              "url(" + require("../../assets/img/header.jpg").default + ")",
           }}
           ref={pageHeader}
         ></div>
@@ -34,7 +34,7 @@ function IndexHeader() {
             <img
               alt="..."
               className="n-logo"
-              src={require("assets/img/now-logo.png").default}
+              src={require("../../assets/img/now-logo.png").default}
             ></img>
             <h1 className="h1-seo">Now UI Kit.</h1>
             <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
@@ -45,7 +45,7 @@ function IndexHeader() {
               <img
                 alt="..."
                 className="invision-logo"
-                src={require("assets/img/invision-white-slim.png").default}
+                src={require("../../assets/img/invision-white-slim.png").default}
               ></img>
             </a>
             . Coded by{" "}
@@ -56,7 +56,7 @@ function IndexHeader() {
               <img
                 alt="..."
                 className="creative-tim-logo"
-                src={require("assets/img/creative-tim-white-slim2.png").default}
+                src={require("../../assets/img/creative-tim-white-slim2.png").default}
               ></img>
             </a>
             .
