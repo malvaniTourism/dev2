@@ -4,8 +4,8 @@
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
   min-height: 100%;
+  background-color: rgb(243, 241, 241);
 }
 .navbar_brand {
   font-weight: 700;
@@ -26,7 +26,6 @@
 }
 
 .my_card {
-  margin: 5px;
   width: 270px;
   height: 414px;
   justify-content: center;
@@ -481,7 +480,7 @@
 
 @media screen and (min-width: 992px) {
     .my_main_carousel {
-      height: 85vh;
+      height: 70vh;
     }
 }
 
@@ -528,4 +527,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.card_carousel {
+  padding: 20px;
+  margin: 20px;
 }

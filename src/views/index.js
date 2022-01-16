@@ -12,6 +12,7 @@ import DefaultFooter from "../components/Footers/DefaultFooter";
 import DiscountCard from "../components/Cards/DiscountCard";
 import UpcomingToursCard from "../components/Cards/UpcomingToursCard";
 import AboutUsCard from "../components/Cards/AboutUsCard";
+import HomeCardCarousel from "../components/Cards/HomeCardCarousel.js";
 
 function Index() {
     React.useEffect(() => {
@@ -29,8 +30,9 @@ function Index() {
         <div className='top_container'>
             <IndexNavbar />
             <div className="wrapper">
+                <MainCarousel />
                 <div className="main">
-                    <MainCarousel />
+                    <HomeCardCarousel />
                     <OffersCard />
                     <HolidayCard />
                     <ExploreCard />
@@ -40,6 +42,7 @@ function Index() {
                     <UpcomingToursCard />
                     {/* <AboutUsCard /> */}
                 </div>
+
                 <DefaultFooter />
             </div>
         </div>
