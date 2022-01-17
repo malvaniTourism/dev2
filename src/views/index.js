@@ -12,7 +12,10 @@ import DefaultFooter from "../components/Footers/DefaultFooter";
 import DiscountCard from "../components/Cards/DiscountCard";
 import UpcomingToursCard from "../components/Cards/UpcomingToursCard";
 import AboutUsCard from "../components/Cards/AboutUsCard";
-import HomeCardCarousel from "../components/Cards/HomeCardCarousel.js";
+
+import OffersDiscounts from "../components/Comps/OffersDiscounts.js";
+import HolidayPlan from "../components/Comps/HolidayPlan.js";
+import ExploreWorld from "../components/Comps/ExploreWorld.js";
 
 function Index() {
     React.useEffect(() => {
@@ -32,10 +35,9 @@ function Index() {
             <div className="wrapper">
                 <MainCarousel />
                 <div className="main">
-                    <HomeCardCarousel />
-                    <OffersCard />
-                    <HolidayCard />
-                    <ExploreCard />
+                    <OffersDiscounts />
+                    <HolidayPlan />
+                    <ExploreWorld />
                     <ExploreMoreCard />
                     <ExploreDetailCard />
                     <DiscountCard />

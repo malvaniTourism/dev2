@@ -13,7 +13,7 @@ import Login from "./views/Login";
 import Register from "./views/Register";
 import Profile from "./views/Profile";
 import Contact from "./views/Contact";
-import Partners from "./views/Parteners";
+import Partners from "./views/Partners";
 import About from "./views/About";
 import ScrollToTop from "./components/Scroll/ScrollToTop";
 

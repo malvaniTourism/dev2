@@ -1,6 +1,29 @@
 .wrapper{
   min-height: 100vh;
 }
+
+.ajCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+.cWhite {
+  color: #fff;
+}
+.bgBlue {
+  background-color: #0000ff;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
 .main {
   display: flex;
   flex-direction: column;
